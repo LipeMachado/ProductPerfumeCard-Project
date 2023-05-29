@@ -12,4 +12,12 @@ export const GlobalStyle = createGlobalStyle`
     html {
         scroll-behavior: smooth;
     }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(30, 38%, 92%);
+        height: 100vh;
+    }
 `;

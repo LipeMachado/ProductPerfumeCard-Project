@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const ProductCardContainerDiv = styled.div`
-
+    background-color: #ffffff;
+    border-radius: 10px;
 `;
 
 export const ProductCardContentDiv = styled.div`
     display: flex;
-    background-color: #ffffff;
-    border-radius: 10px;
     width: 700px;
     height: 450px;
 

@@ -9,8 +9,8 @@ import {
     ProductCardContentButtonDiv
 } from "./style";
 
-import ProductPerfumeDesktop from '../../../../Assets/AssetsProjects/ProductPerfumeCard/product-perfume-desktop.jpg'
-import ProductPerfumeMobile from '../../../../Assets/AssetsProjects/ProductPerfumeCard/product-perfume-mobile.jpg'
+import ProductPerfumeDesktop from '../../Assets/product-perfume-desktop.jpg'
+import ProductPerfumeMobile from '../../Assets/product-perfume-mobile.jpg'
 
 export function ProductPerfumeCard() {
     return (
@@ -18,8 +18,8 @@ export function ProductPerfumeCard() {
             <ProductCardContainerDiv>
                 <ProductCardContentDiv>
                     <ProductCardContentImageDiv>
-                        <img className="productImageDesktop" src='' alt="Perfume" />
-                        <img className="productImageMobile" src='' alt="Perfume" />
+                        <img className="productImageDesktop" src={ProductPerfumeDesktop} alt="Perfume" />
+                        <img className="productImageMobile" src={ProductPerfumeMobile} alt="Perfume" />
                     </ProductCardContentImageDiv>
                     <ProductCardContentTextDiv>
                         <span>PERFUME</span>
